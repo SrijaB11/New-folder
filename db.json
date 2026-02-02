@@ -1,83 +1,257 @@
 {
-  "students": [
+  "users": [
     {
-      "id": "1"
+      "id": "1",
+      "name": "Hospital Admin",
+      "email": "admin@hospital.com",
+      "password": "admin123",
+      "role": "admin"
     },
     {
-      "name": "",
-      "age": "",
-      "id": "2"
+      "id": "2",
+      "name": "Srija",
+      "email": "srija@gmail.com",
+      "password": "123456",
+      "role": "patient"
+    },
+    {
+      "id": "4efc",
+      "name": "acd",
+      "email": "acd@gmail.com",
+      "password": "123456",
+      "role": "patient"
+    },
+    {
+      "id": "aa77",
+      "name": "ajay",
+      "email": "ajay@gmail.com",
+      "password": "ajay",
+      "role": "doctor"
+    },
+    {
+      "id": "02d3",
+      "name": "vijay",
+      "email": "vijay@gmail.com",
+      "password": "vijay",
+      "role": "doctor"
+    },
+    {
+      "id": "aa77",
+      "name": "Dr. Ravi Kumar",
+      "email": "ravi@gmail.com",
+      "password": "ravi",
+      "role": "doctor"
+    },
+    {
+      "id": "1",
+      "name": "Dr. Hema Sharma",
+      "specialization": "Cardiologist",
+      "email": "Hema@hospital.com",
+      "image": "https://randomuser.me/api/portraits/women/65.jpg",
+      "doctorId": 2,
+      "password": "hema"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Ravi Kumar",
+      "specialization": "Neurologist",
+      "email": "ravi@hospital.com",
+      "image": "https://randomuser.me/api/portraits/men/66.jpg",
+      "doctorId": 1,
+      "password": "ravi"
     },
     {
       "id": "3",
-      "name": "Charlie",
-      "age": 24
+      "name": "Dr. Priya Singh",
+      "specialization": "Pediatrician",
+      "email": "priya@hospital.com",
+      "image": "https://randomuser.me/api/portraits/women/67.jpg",
+      "doctorId": 3,
+      "password": "priya"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Hema Sharma",
+      "specialization": "Cardiologist",
+      "email": "Hema@hospital.com",
+      "image": "https://randomuser.me/api/portraits/women/65.jpg",
+      "doctorId": 2
+    },
+    {
+      "id": "2",
+      "name": "Dr. Ravi Kumar",
+      "specialization": "Neurologist",
+      "email": "ravi@hospital.com",
+      "image": "https://randomuser.me/api/portraits/men/66.jpg",
+      "doctorId": 1
+    },
+    {
+      "id": "3",
+      "name": "Dr. Priya Singh",
+      "specialization": "Pediatrician",
+      "email": "priya@hospital.com",
+      "image": "https://randomuser.me/api/portraits/women/67.jpg",
+      "doctorId": 3
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "doctorId": 1,
+      "doctorName": "Dr. Hema Sharma",
+      "patientId": 1,
+      "patientName": "John Doe",
+      "patientEmail": "john@example.com",
+      "patientPhone": "9876543210",
+      "date": "2026-01-20",
+      "time": "10:30",
+      "problem": "Chest pain",
+      "status": "pending"
+    },
+    {
+      "id": "2",
+      "doctorId": 2,
+      "doctorName": "Dr. Hema Sharma",
+      "patientId": 2,
+      "patientName": "John Doe",
+      "patientEmail": "john@example.com",
+      "patientPhone": "9876543210",
+      "date": "2026-01-20",
+      "time": "10:30",
+      "problem": "Chest pain",
+      "status": "pending"
+    },
+    {
+      "id": "3",
+      "doctorId": 3,
+      "doctorName": "Dr. Hema Sharma",
+      "patientId": 3,
+      "patientName": "John Doe",
+      "patientEmail": "john@example.com",
+      "patientPhone": "9876543210",
+      "date": "2026-01-20",
+      "time": "10:30",
+      "problem": "Chest pain",
+      "status": "pending"
     },
     {
       "id": "4",
-      "name": "Charlie",
-      "age": 24
+      "doctorId": 4,
+      "doctorName": "Dr. Hema Sharma",
+      "patientId": 4,
+      "patientName": "John Doe",
+      "patientEmail": "john@example.com",
+      "patientPhone": "9876543210",
+      "date": "2026-01-20",
+      "time": "10:30",
+      "problem": "Chest pain",
+      "status": "pending"
     },
     {
       "id": "5",
-      "name": "Charlie",
-      "age": 24
+      "doctorId": 5,
+      "doctorName": "Dr. Hema Sharma",
+      "patientId": 2,
+      "patientName": "John Doe",
+      "patientEmail": "john@example.com",
+      "patientPhone": "9876543210",
+      "date": "2026-01-20",
+      "time": "10:30",
+      "problem": "Chest pain",
+      "status": "pending"
     },
     {
-      "id": "4bc4"
+      "id": "92da",
+      "patientName": "dfghujlk;'",
+      "patientEmail": "dtfyghujkl@waerdtfgyuk",
+      "patientPhone": "3w5467y8ui9po0[p]",
+      "date": "67890-05-04",
+      "time": "04:59",
+      "problem": "3we45r6789p0[[",
+      "doctorId": 2,
+      "doctorName": "Dr. Ravi Kumar",
+      "patientId": 1,
+      "status": "pending"
     },
     {
-      "id": "eec0",
-      "name": "dfcgvhbmrthfgjykuh",
-      "age": "345678"
+      "id": "e2a5",
+      "patientName": "a",
+      "patientEmail": "a@mail.com",
+      "patientPhone": "1334566789",
+      "date": "67890-05-31",
+      "time": "03:59",
+      "problem": "3456780=][\n'./,b",
+      "doctorId": 2,
+      "doctorName": "Dr. Ravi Kumar",
+      "patientId": 1,
+      "status": "pending"
     },
     {
-      "id": "851e"
+      "id": "1c0a",
+      "patientName": "srija",
+      "patientEmail": "srija@gmail.com",
+      "patientPhone": "56789",
+      "date": "2000-05-31",
+      "time": "03:56",
+      "problem": "78",
+      "doctorId": 2,
+      "doctorName": "Dr. Ravi Kumar",
+      "patientId": 1,
+      "status": "pending"
     },
     {
-      "id": "6abc",
-      "name": "dfgvhb",
-      "age": "3456789"
+      "id": "5fe2",
+      "patientName": "r",
+      "patientEmail": "r@gmail.com",
+      "patientPhone": "113456789",
+      "date": "1111-03-13",
+      "time": "11:12",
+      "problem": "heart",
+      "doctorId": 1,
+      "doctorName": "Dr. Hema Sharma",
+      "patientId": 1,
+      "status": "pending"
     },
     {
-      "id": "6eb2",
-      "name": "dfgvhb",
-      "age": "3456789"
+      "id": "682b",
+      "patientName": "   ",
+      "patientEmail": "abc@gmail.com",
+      "patientPhone": " ",
+      "date": "2026-01-06",
+      "time": "11:56",
+      "problem": " ",
+      "doctorId": 1,
+      "doctorName": "Dr. Hema Sharma",
+      "patientId": 1,
+      "status": "pending"
     },
     {
-      "id": "908a",
-      "name": "dfgvhb",
-      "age": "3456789"
+      "id": "bc16",
+      "patientName": "  ",
+      "patientEmail": "abc@gmail.com",
+      "patientPhone": "  ",
+      "date": "2026-01-06",
+      "time": "12:00",
+      "problem": "fghbj,mk",
+      "doctorId": 3,
+      "doctorName": "Dr. Priya Singh",
+      "patientId": "2",
+      "status": "Cancelled"
     },
     {
-      "id": "6720",
-      "name": "dfgvhbmjn",
-      "age": "456789"
-    },
-    {
-      "id": "a8d2",
-      "name": "xfcgvhbjn",
-      "age": "6789"
-    },
-    {
-      "id": "267a",
-      "name": "sdfghj",
-      "age": "56789"
-    },
-    {
-      "id": "d17f",
-      "name": "fdgghj",
-      "age": "56789"
-    },
-    {
-      "id": "3e16",
-      "name": "sdfg",
-      "age": "34567"
-    },
-    {
-      "id": "0c67",
-      "name": "fdghmj",
-      "age": "456789"
+      "id": "7b96",
+      "patientName": "dfghjk",
+      "patientEmail": "usrija82@gmail.com",
+      "patientPhone": "1334566789",
+      "date": "2026-01-30",
+      "time": "13:00",
+      "problem": "bvnbmn",
+      "doctorId": 1,
+      "doctorName": "Dr. Hema Sharma",
+      "patientId": "2",
+      "status": "Cancelled"
     }
   ]
 }
