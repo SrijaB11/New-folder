@@ -1,0 +1,11 @@
+{
+  "name": "hospital-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/json-server/lib/cli/bin.js --watch data/server.json --port $PORT --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
